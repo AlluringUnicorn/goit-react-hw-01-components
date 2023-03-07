@@ -1,0 +1,32 @@
+.statistics {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 350px;
+margin-bottom: 50px;
+padding-top: 25px;
+  background-color: white;
+}
+
+.stats{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  padding: 25px 17.5px;
+  border: 0.5px solid gray;
+  color: white;
+}
+
+.label{
+  margin-bottom: 5px;
+}

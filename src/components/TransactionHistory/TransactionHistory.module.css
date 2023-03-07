@@ -1,0 +1,31 @@
+.transaction_history {
+  background-color: white;
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+.head {
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #4682b4;
+  color: white;
+}
+
+.data {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: #808080;
+}
+
+.type{
+    composes: data;
+    text-transform: capitalize;
+}
+
+.row:nth-child(even){
+background-color: #f2f2f2;
+}
